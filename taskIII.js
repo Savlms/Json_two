@@ -2,9 +2,8 @@
 const fs = require('fs');
 const csv = require('csvtojson');
 
-// Replace 'input.csv' with the path to your CSV file.
 const csvFilePath = 'data.csv';
-const jsonFilePath = 'output.json'; // Change the output file path as needed.
+const jsonFilePath = 'output.json'; 
 // Read the CSV file and convert it to JSON.
 csv()
   .fromFile(csvFilePath)
